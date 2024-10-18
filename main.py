@@ -30,7 +30,7 @@ def get_ip_ipdate():
         print("Use 127.0.0.1 or 0.0.0.0 to find your IP")
 
         # API Key for IPData
-        api_key = "73ba5603787d9dfa63d02895e95ccc47457779bb2296044f454cb115"
+        api_key = input("IP Address: ")
         ip_address = input("IP Address: ")
 
         # User IP
